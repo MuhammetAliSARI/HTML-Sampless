@@ -6,14 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>HOVER</title>
         <style>
+            :root {
+                font-size: 20px;
+            }
+
             button {
                 background-color: purple;
                 color: white;
             }
 
             button:hover {
-                background-color: rgb(255, 0, 0);
-                color: rgb(255, 255, 255);
+                background-color: aqua;
+                color: black;
             }
 
             h1:hover {
@@ -28,12 +32,29 @@
             a:visited {
                 color: red;
             }
+
+            .cizgi {
+                width: 40%;
+                height: 1px;
+                background-color: black;
+                font-size: 1px;
+            }
+
+            .paragraf {
+                /* font-size: 3em; */
+                /* 2rem demek 2 katı demektir. Normalde 1 rem 16px olarak kabul eder.*/
+                font-size: 2rem;
+            }
         </style>
     </head>
     <body>
         <h1>HOVER</h1>
         <button>HOVER OZELLIGI</button>
-        <br><a href="https://www.google.com">Buraya tiklayin</a>
-        <br><a href="https://www.uyduruk.com">Buraya tiklayin</a>
+        <a href="https://www.google.com">Buraya tiklayin</a>
+        <a href="https://www.alibaba.com">Buraya tiklayin</a>
+
+        <div class="cizgi">
+            <p class="paragraf">Merhaba</p>
+        </div>
     </body>
 </html>
