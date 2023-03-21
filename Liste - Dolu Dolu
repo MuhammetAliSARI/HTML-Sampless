@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    İçecek Listesi<br>
+    <ul type="square"> 
+        <li>Karadeniz</li>
+            <ul> 
+                <li>Trabzon</li>
+                <ol type="A" start="5">
+                    <li>Çaykara</li>
+                    <li>Of</li>
+                    <li>Sürmene</li>
+                </ol>
+                <li>Rize</li>
+                <ol type="I">
+                    <li>Ardeşen</li>
+                    <li>Çayeli</li>
+                    <li>Hemşin</li>
+                    <li>İkizdere</li>
+                </ol>
+                <li>Giresun</li>
+                <ol type="i">
+                    <li>Görele</li>
+                    <li>Alucra</li>
+                    <li>Tirebolu</li>
+                    <li>Bulancak</li>
+                </ol>
+            </ul>
+        <li>Ege</li>
+            <ul type="none">
+                <li>İzmir</li>
+                <li>Aydın</li>
+                <li>Muğla</li>
+            </ul>
+        <li>Akdeniz</li>
+            <ol>
+                <li>Antalya</li>
+                <li>Adana</li>
+                <li>Mersin</li>
+            </ol>
+        <li>Marmara</li>
+            <ol start="12">
+                <li>İstanbul</li>
+                <ul type="disc">
+                    <li>Kadıköy</li>
+                    <li>Beykoz</li>
+                    <li>Şişli</li>
+                </ul>
+                <li>Bursa</li>
+                <li>Edirne</li>
+            </ol>
+        <li>Doğu Anadolu</li>
+            <ol reversed>
+                <li>Erzurum</li>
+                <li>Van</li>
+                <li>Kars</li>
+            </ol>
+        <li>Güneydoğu</li>
+            <ol type="a">
+                <li>Hakkari</li>
+                <li>Malatya</li>
+                <li>ŞAnlıurfa</li>
+            </ol>
+      </ul>  
+</body>
+</html>
