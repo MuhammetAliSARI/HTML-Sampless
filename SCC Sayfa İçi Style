@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa İçi Stillendirme</title>
+    <!--Dikkat edilirse, şu an head içindeyiz.-->
+    <style>     
+        p {
+            color: red;
+            text-align: center;
+        }
+    </style> 
+    <!-- Yukarıdaki style işlemi, artık sayfadaki tüm metinlerin ortak özelliği oldu-->
+        
+</head>
+<body>
+    <p>Merhaba Türkiye</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat iusto deleniti ipsa cumque necessitatibus illo dicta iure repudiandae ab expedita. Vitae mollitia debitis quibusdam doloribus omnis. Vero placeat totam similique?</p>
+</body>
+</html> 
