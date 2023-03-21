@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harici Stillendirme</title>    
+    <link rel="stylesheet" href="CSS/style.css">   
+    <!--Bu satır sayesinde css'ten stilleri okur-->
+    <!--Head etiketinin içinde olmasına dikkat edilmelidir-->
+</head>
+<body>
+    <h1>Harici Stillendirme</h1>
+    <h2>İkinci stil</h2>
+    <p>Bu da p elementi</p>
+    <p class="paragraf">Paraggraf classı</p>
+    <p id="p1">Heştek işaretli işlem</p>
+</body>
+</html> 
