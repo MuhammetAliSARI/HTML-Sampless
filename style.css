@@ -1,0 +1,26 @@
+h1 {
+    color:rgb(255, 0, 0);background-color:rgb(255, 238, 0)
+}
+h2 {
+    color:rgb(55, 0, 255); font-size:20px; text-align:center
+}
+
+/* h1 veya h2 ifadesini silersek, ilişkili olduğu sayfalardaki metinlerin tümünü etkiler. Fakat bu durumda tekkrar olmamalı! Yoksa çakışma olur.*/
+
+p {
+    color:rgb(195, 0, 255)
+}
+
+.paragraf{      
+    text-align:center;font-size:25px
+    /*Bağlı olan dosyadaki paragraf class'ı bu özellikleri okuyacak */
+    /*Bağlı olan class aynı zamanda bir a elementi olduğu için, a'nın verilen özelliklerini de taşır.*/
+    /* Class isimleri css dosyasında temsil edilirken, başına nokta konulmalıdır.*/
+
+}
+
+#p1 {
+    background-color:rgb(80, 255, 133)
+    /* Görüldüğü gibi, id'ye ulaşmak için # işareti kullanıldı.*/
+}
+
