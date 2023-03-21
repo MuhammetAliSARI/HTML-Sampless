@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FORM</title>
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <form>
+            <label for="">İsminizi girin:</label>
+            <input type="text" minlength="10" maxlength="10">
+            <!--Girilen ifade en az 10 karakter olmak zoorunda-->
+            <!--Girilen ifade en fazla 10 karakter olmak zoorunda-->
+            <br>
+            <br>
+            <label for="">E-posta</label>
+            <input type="text">
+            <button>Kaydet</button>
+        </form>
+        <br>
+        <form>
+            <label>Lütfen bir numara girin!</label>
+            <input type="number" max="5"/>
+            <!--Rakam 5'ten büyük olmamalı.-->
+            <br>
+            <br>
+            <label>E-mail:</label>
+            <input type="email" />
+            <br>
+            <br>
+            <label>Şifrenizi girin:</label>
+            <input type="password" required />
+            <br>
+            <br>
+            <label>Web sitenizi girin:</label>
+            <input type="url" required />   
+            <br>
+            <br>     
+            <label>Tel no girin:</label>
+            <input type="tel" required />   
+            <br>
+            <br> 
+
+            <!--Tik seçenekleri-->
+            <!--tek bir name vermezsek tek seçenekli olmaz -->
+            <label>Erkek</label>
+            <input type="radio"  name="cinsiyet"/>   
+            <label>Bayan</label>
+            <input type="radio"  name="cinsiyet"/>   
+            <label>Belirsiz</label>
+            <input type="radio"  name="cinsiyet"/> 
+
+            <br>
+            <br> 
+            <label>Futbol</label>
+            <input type="checkbox"  name="hobilerim"/>   
+            <label>Voleybol</label>
+            <input type="checkbox"  name="hobilerim"/>   
+            <label>Basketbol</label>
+            <input type="radio"  name="hobilerim"/>  
+
+
+            <br>
+            <br>  
+            <label>Renk seçin</label>
+            <input type="color"/>   
+
+            <br>
+            <br> 
+            <label>Diyagram</label>
+            <input type="range" step="5"/>   
+
+            <br>
+            <br> 
+            <label for="">Bir dosya seçin</label>
+            <input type="file"/>   
+            
+            <br>
+            <br> 
+            <label for="">Lütfen tarih giriniz:</label>
+            <input type="date"/>   
+            <input type="time"/>      
+                   
+            <br>
+            <br> 
+            <select name="diller">
+                <option value=""selected disabled>Lütfen bir dil seçiniz</option>
+                <option value="">İngilizce</option>
+                <option value="">Türkçe</option> 
+                <!--Seçili olanı belirlemek için selected kullanılır-->
+                <!--    <option value=""selected>Türkçe</option>  gibi...-->
+                <!--Seçilemez bir başlık için disabled kullanılır-->
+                <option value="">Fransızca</option>
+            </select>    
+
+
+            <br>
+            <br> 
+            <input type="submit" value="Formu Gönder" />
+            <br>
+            <br> 
+            <input type="reset" value="Formu Temzle" />
+        </form>
+    </body>
+</html> 
+<!--reset kullanırsak, işlem sonrası forma ait girdi kutucuklarını temizler.-->
+<!--required : doldurulmak zorunda olan alan-->
+<!--minlength : En az girilmesi gereken karakter adedi--> 
