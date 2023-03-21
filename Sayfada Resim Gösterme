@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><img src="google.png" alt="Orjinal Google Resmi">
+    <br><img src="google.png" alt="Yatay Genişlik Belli Google Resmi" width="200">
+    <br><img src="google.png" alt="Dikey Genişlik Belli Google Resmi" height="200">
+    <br><img src="google.png" alt="Dikey ve Yatay Belli Google Resmi" width="150" height="300">
+</body>
+</html> 
